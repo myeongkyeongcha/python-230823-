@@ -18,3 +18,11 @@ while True:
 
     result = match(computer, player)
     print(result)
+
+    one_more = input('게임을 더 하시겠습니까?[y]')
+    if one_more == 'y':
+        print('게임을 다시 시작하겠습니다.')
+        continue
+    else:
+        print('게임을 종료하겠습니다.')
+        break
